@@ -1,0 +1,43 @@
+@import url("./scss/bootstrap.css");
+@import url("./style.css");
+@import url("./reset.css");
+html, body {
+  height: 100%;
+}
+
+header nav {
+  box-shadow: 4.10924px 4.10924px 12.3277px rgba(0, 0, 0, 0.3);
+}
+header nav .container .navbar-brand {
+  background-image: url("./public/Logo 2.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+header nav .container > div {
+  justify-content: flex-end;
+}
+header nav .container > div ul {
+  align-items: center;
+}
+header nav .container > div ul li {
+  width: 83px;
+  display: flex;
+  justify-content: center;
+}
+header nav .container > div ul li .account {
+  width: 150px;
+  height: 70px;
+  background-color: black;
+  border-radius: 82px;
+  color: white;
+  background-image: url("./public/Profile.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+header nav .container > div ul .account-item {
+  width: 210px;
+  display: flex;
+  justify-content: flex-end;
+}/*# sourceMappingURL=main.css.map */
