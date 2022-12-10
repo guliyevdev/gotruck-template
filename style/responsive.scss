@@ -33,6 +33,24 @@
             }
         }
     }
+    .main {
+        .hero-section {
+            .text {
+                margin-top: 15%;
+                .hero-title, .hero-text {
+                    text-align: center;
+                }
+                >div {
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+    .truck {
+        margin-top: 10%;
+    }
+
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -52,6 +70,18 @@ nav {
     .account-item {
         margin: 2% 0;
         justify-content: center!important;
+    }
+}
+.sections {
+    .section {
+        .section-image {
+            img {
+                width: 100%!important;
+            }
+        }
+        .title { 
+            line-height: 40px!important;
+        }
     }
 }
 }

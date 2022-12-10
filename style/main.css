@@ -7,6 +7,8 @@ html, body {
 
 header nav {
   box-shadow: 4.10924px 4.10924px 12.3277px rgba(0, 0, 0, 0.3);
+  font-family: Inter;
+  padding: 1.2% 0 !important;
 }
 header nav .container .navbar-brand {
   background-image: url("./public/Logo 2.png");
@@ -25,6 +27,9 @@ header nav .container > div ul li {
   display: flex;
   justify-content: center;
 }
+header nav .container > div ul li a {
+  font-weight: bold;
+}
 header nav .container > div ul li .account {
   width: 150px;
   height: 70px;
@@ -38,6 +43,103 @@ header nav .container > div ul li .account {
 }
 header nav .container > div ul .account-item {
   width: 210px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main {
+  margin-top: 100px;
+}
+.main .hero-section .row {
+  align-items: center;
+}
+.main .hero-section .row .text .hero-title {
+  font-family: Inter;
+  font-weight: bolder;
+  line-height: 60px;
+}
+.main .hero-section .row .text .hero-text {
+  font-family: Rubik;
+  line-height: 30px;
+}
+.main .hero-section .row .text .button-one {
+  margin-top: 3%;
+}
+.main .hero-section .row .image {
+  padding: 3% 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.main .hero-section .row .image img {
+  width: 300px;
+}
+.main .truck img {
+  width: 50%;
+}
+.main .how-to-section {
+  margin-top: 12%;
+  font-family: Montserrat;
+}
+.main .how-to-section .section-title .title {
+  margin-bottom: 5%;
+  text-align: center;
+  font-weight: bold;
+}
+.main .how-to-section .carousel .carousel-control-prev {
+  top: -20%;
+  justify-content: flex-start;
+}
+.main .how-to-section .carousel .carousel-control-prev .carousel-control-prev-icon {
+  background-image: url("./public/left.svg");
+}
+.main .how-to-section .carousel .carousel-control-next {
+  top: -20%;
+  justify-content: flex-end;
+}
+.main .how-to-section .carousel .carousel-control-next .carousel-control-next-icon {
+  background-image: url("./public/right.svg");
+}
+.main .how-to-section .carousel .carousel-item .carousel-caption {
+  position: relative;
+  left: 0;
+  right: 0;
+  padding-top: 0;
+}
+.main .how-to-section .carousel .carousel-item .carousel-caption .red-title {
+  font-weight: bold;
+  color: #FF0000;
+  line-height: 30px;
+}
+.main .how-to-section .carousel .carousel-item .carousel-caption .title {
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  line-height: 30px;
+}
+.main .how-to-section .carousel .carousel-item .carousel-caption .text {
+  color: #737373;
+}
+.main .how-to-section .sections .section {
+  align-items: center;
+  margin: 2% 0;
+}
+.main .how-to-section .sections .section img {
+  width: 60%;
+}
+.main .how-to-section .sections .section .red-title {
+  font-weight: bold;
+  color: #FF0000;
+  line-height: 30px;
+}
+.main .how-to-section .sections .section .title {
+  font-weight: bold;
+  text-align: left;
+  line-height: 60px;
+}
+.main .how-to-section .sections .section .text {
+  color: #737373;
+}
+.main .how-to-section .sections .two .section-image {
   display: flex;
   justify-content: flex-end;
 }/*# sourceMappingURL=main.css.map */
