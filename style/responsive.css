@@ -39,11 +39,34 @@
     margin: 2% 0;
     justify-content: center !important;
   }
+  .faq-background {
+    width: 100% !important;
+    margin-left: 0 !important;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    border-radius: 70px 0 0 0 !important;
+  }
+  .faq-background img {
+    width: 50% !important;
+    margin: 0 !important;
+    opacity: 0.5;
+  }
+  .faq {
+    margin-top: 0% !important;
+    text-align: center;
+  }
+  .faq .accordion {
+    margin-top: 10% !important;
+  }
   .sections .section .section-image img {
     width: 100% !important;
   }
   .sections .section .title {
     line-height: 40px !important;
+  }
+  .title-style-one {
+    line-height: 40px;
   }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) *//*# sourceMappingURL=responsive.css.map */

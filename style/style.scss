@@ -40,3 +40,38 @@
     background-color: #FFC000;
     filter: drop-shadow(0px 3.2874px 3.2874px rgba(0, 0, 0, 0.25));
 }
+
+.red-title-style-one {
+    font-weight: bold;
+    color: #FF0000;
+    line-height: 30px;
+    font-family: Montserrat;
+}
+.title-style-one {
+    color: black;
+    font-weight: bold;
+    line-height: 60px;
+}
+.text-style-one {
+    color: #737373;
+}
+.accordion {
+    .accordion-item {
+        border-radius: 8px;
+        filter: drop-shadow(0px 3.2874px 3.2874px rgba(0, 0, 0, 0.25));
+               
+    }
+    .accordion-button {
+        padding: 5% 4.5%;
+        border-radius: 8px!important;
+        font-family: Rubik;
+        font-weight: 500;
+    }
+    .item-red {
+        text-align: center;
+        background-color: rgb(237, 77, 71, 0.2);
+    }
+    .item-red::after {
+        background-image: url('./public/+.svg');
+    }
+}

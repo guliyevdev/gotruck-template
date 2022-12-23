@@ -80,7 +80,7 @@ header nav .container > div ul .account-item {
   margin-top: 12%;
   font-family: Montserrat;
 }
-.main .how-to-section .section-title .title {
+.main .how-to-section .section-title .title-style-one {
   margin-bottom: 5%;
   text-align: center;
   font-weight: bold;
@@ -105,41 +105,42 @@ header nav .container > div ul .account-item {
   right: 0;
   padding-top: 0;
 }
-.main .how-to-section .carousel .carousel-item .carousel-caption .red-title {
-  font-weight: bold;
-  color: #FF0000;
-  line-height: 30px;
-}
-.main .how-to-section .carousel .carousel-item .carousel-caption .title {
-  font-weight: bold;
-  text-align: center;
-  color: black;
-  line-height: 30px;
-}
-.main .how-to-section .carousel .carousel-item .carousel-caption .text {
-  color: #737373;
-}
 .main .how-to-section .sections .section {
   align-items: center;
   margin: 2% 0;
 }
 .main .how-to-section .sections .section img {
-  width: 60%;
-}
-.main .how-to-section .sections .section .red-title {
-  font-weight: bold;
-  color: #FF0000;
-  line-height: 30px;
-}
-.main .how-to-section .sections .section .title {
-  font-weight: bold;
-  text-align: left;
-  line-height: 60px;
-}
-.main .how-to-section .sections .section .text {
-  color: #737373;
+  width: 73%;
 }
 .main .how-to-section .sections .two .section-image {
   display: flex;
   justify-content: flex-end;
+}
+.main .distance {
+  height: 180px;
+}
+.main .faq-background {
+  width: 100%;
+  z-index: -1;
+  position: relative;
+  background-color: #FDEDE8;
+  border-radius: 180px 0 0 0;
+  padding: 2% 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.main .faq-background img {
+  width: 60%;
+  margin: 10% 0 0 30%;
+  position: absolute;
+  z-index: -1;
+}
+.main .faq {
+  margin-top: 20%;
+}
+.main .faq .accordion {
+  margin-top: 22%;
+}
+.main .faq .accordion .accordion-item {
+  margin: 2% 0;
 }/*# sourceMappingURL=main.css.map */
