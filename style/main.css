@@ -47,6 +47,10 @@ header nav .container > div ul .account-item {
   justify-content: flex-end;
 }
 
+.distance {
+  height: 10em;
+}
+
 .main {
   margin-top: 100px;
 }
@@ -116,9 +120,6 @@ header nav .container > div ul .account-item {
   display: flex;
   justify-content: flex-end;
 }
-.main .distance {
-  height: 180px;
-}
 .main .faq-background {
   width: 100%;
   z-index: -1;
@@ -143,4 +144,84 @@ header nav .container > div ul .account-item {
 }
 .main .faq .accordion .accordion-item {
   margin: 2% 0;
+}
+
+footer {
+  position: absolute;
+  font-family: Inter;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  background-image: url("./public/Vector 13.svg"), url("./public/BG.svg");
+  background-repeat: no-repeat;
+  background-size: 88%;
+  color: white;
+}
+footer .mini-truck img {
+  width: 28%;
+  position: absolute;
+  margin-top: -11%;
+  margin-left: -2%;
+}
+footer .footer-main {
+  margin-top: -100px;
+}
+footer .footer-main .text-and-request {
+  align-items: center;
+}
+footer .footer-main .text-and-request .line-and-text {
+  margin-top: 20%;
+  border-left: 8px solid #ED4D47;
+  padding: 2.5% 5%;
+}
+footer .footer-main .text-and-request .request {
+  background-color: white;
+  color: black;
+  box-shadow: 4.10924px 4.10924px 12.3277px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  padding: 5% 10%;
+}
+footer .footer-main .text-and-request .request > div {
+  margin: 6% 0;
+}
+footer .footer-main .text-and-request .request > div input {
+  width: 100%;
+  padding-top: 3.5%;
+  padding-bottom: 3.5%;
+}
+footer .footer-main .links {
+  align-items: center;
+}
+footer .footer-main .links ul {
+  flex-direction: row;
+  text-align: center;
+  justify-content: flex-end;
+}
+footer .footer-main .links ul li {
+  width: 25%;
+}
+footer .footer-main .links .logo {
+  width: 152px;
+  height: 92px;
+  display: block;
+  background-image: url("./public/Logo 3.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+footer .end {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  color: black;
+}
+footer .end .row {
+  align-items: center;
+}
+footer .end .row ul {
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 2% 15%;
+}
+footer .end .row ul li {
+  padding: 0 2%;
 }/*# sourceMappingURL=main.css.map */

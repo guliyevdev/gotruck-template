@@ -1,4 +1,24 @@
- /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 576px) {
+    footer {
+        background-image: url('./public/BG\ \ mini.svg');
+        background-size: 100%;
+        padding-top: 55%;    
+        .mini-truck {
+            display: none;
+        }
+        .footer-main {
+            background-color: #0f264c;
+            .line-and-text {
+                margin-top: 0 !important;
+            }
+            .request {
+                margin-top: 5%;
+            }
+        }
+
+    }
+}
+/* Extra small devices (phones, 600px and down) */
  @media only screen and (max-width: 600px) {
 
 }
@@ -18,6 +38,11 @@
                     height: 70px;
                 }
             }
+        }
+    }
+    footer {
+        .links {
+            padding: 3% 0;
         }
     }
     
@@ -49,6 +74,11 @@
     }
     .truck {
         margin-top: 10%;
+    }
+    footer {
+        .line-and-text {
+            margin-top: 40%;
+        }
     }
 
 }
@@ -111,7 +141,22 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
+    footer {
+        .container {
+            .text-and-request {
+                .text {
+                    width: 70%;
+                }
+                .request {
+                    width: 75%;
+                }
+            }
+        }
+    }
 }
 @media only screen and (max-width: 1200px) {
+    footer {
+        background-size: 100%;
+    }
     
 }
